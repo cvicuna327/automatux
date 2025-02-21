@@ -1,17 +1,17 @@
 <div align="center">
 
-# Automata
+# Automatux
 
 <img src="https://cdn.rawgit.com/odb/official-bash-logo/master/assets/Logos/Identity/PNG/BASH_logo-transparent-bg-color.png">
 
-##### Elementary OS Loki Shell script to setup Development Environment
+##### Debian Base Linux Shell script to setup Development Environment
 
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
 [![Packagist](https://img.shields.io/badge/bash-script-green.svg)]()
 
-#### I have created this script to setup development environment after fresh installation of Elementary OS Loki. This will install following development environments and tools for you:
+#### I have created this script to setup development environment after fresh installation of Debian Linux distribution. This will install following development environments and tools for you:
 
-### Also works with Ubuntu 16.04+
+### Also works with Ubuntu
 
 </div>
 
