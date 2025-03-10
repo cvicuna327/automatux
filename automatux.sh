@@ -121,15 +121,6 @@ if test ! $(which vlc); then
   echo -e ""
 fi
 
-if test ! $(which elementary-tweaks); then
-  #tweaks for customize eOS
-  echo -e "Installing Elementary-tweaks \n"
-  sudo add-apt-repository ppa:philip.scott/elementary-tweaks 
-  sudo apt-get update
-  sudo apt-get install elementary-tweaks
-  echo -e ""
-fi
-
 if test ! $(which spotify-client); then
   #Spotify linux client
   echo -e "Installing Spotify Client for Linux"
@@ -170,19 +161,6 @@ sudo rm -r google-chrome-stable_current_amd64.deb
 #git 
 echo -e "Installing Git \n"
 sudo apt install -y git-core
-
-#NodeJS
-echo -e "Installing NodeJS & NPM \n"
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-sudo apt install -y nodejs
-
-#Heroku CLI - replace x64 to x86 if necessary
-echo -e "Installing Heroku CLI \n"
-wget https://cli-assets.heroku.com/heroku-cli/channels/stable/heroku-cli-linux-x64.tar.gz -O heroku.tar.gz
-tar -xvzf heroku.tar.gz
-mkdir -p /usr/local/lib /usr/local/bin
-mv heroku-cli-v6.14.20-darwin-64 /usr/local/lib/heroku
-ln -s /usr/local/lib/heroku/bin/heroku /usr/local/bin/heroku
 
 #VS Code
 echo -e "Installing VS Code Text-Editor \n"
